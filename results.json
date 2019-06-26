@@ -10,7 +10,7 @@
     CorrelationId : 'def',
     UserName : 'test@dell.com',
     TotalDuration: 100 ,
-    Request : [{
+    Request : {
     name: 'Mark',
     surname: 'Galea',
     age: 30,
@@ -18,8 +18,8 @@
     'first-line': 'One',
     'second-line': 'Dell Way',
     city: 'Round Rock'
-  }],
-    Response : [{
+  },
+    Response : {
     name: 'Mark',
     surname: 'Galea',
     age: 30,
@@ -27,7 +27,7 @@
     'first-line': '2509 Blended Tree',
     'second-line': 'Ranch',
     city: 'Leander'
-  }]},
+  }},
   
   {
     id: 2,
@@ -39,7 +39,7 @@
     CorrelationId : 'def',
     UserName : 'test@dell.com',
     TotalDuration: 100,
-    Request : [{
+    Request : {
     name: 'Mark',
     surname: 'Galea',
     age: 30,
@@ -47,8 +47,8 @@
     'first-line': 'One',
     'second-line': 'Dell Way',
     city: 'Round Rock'
-  }],
-    Response : [{
+  },
+    Response : {
     name: 'Mark',
     surname: 'Galea',
     age: 30,
@@ -56,7 +56,7 @@
     'first-line': '2509 Blended Tree',
     'second-line': 'Ranch',
     city: 'Leander'
-  }]},
+  }},
   
   {id: 3, 
   ServiceEndpoint: 'ISolutionService', 
@@ -67,7 +67,7 @@
   CorrelationId : 'def', 
   UserName : 'test@dell.com', 
   TotalDuration: 100, 
-  Request : [{
+  Request : {
     name: 'Mark',
     surname: 'Galea',
     age: 30,
@@ -75,8 +75,8 @@
     'first-line': 'One',
     'second-line': 'Dell Way',
     city: 'Round Rock'
-  }],
-    Response : [{
+  },
+    Response : {
     name: 'Mark',
     surname: 'Galea',
     age: 30,
@@ -84,7 +84,7 @@
     'first-line': '2509 Blended Tree',
     'second-line': 'Ranch',
     city: 'Leander'
-  }]},
+  }},
   
   {id: 4, 
   ServiceEndpoint: 'http://quotes.dellsvc', 
@@ -95,7 +95,7 @@
   CorrelationId : 'def', 
   UserName : 'test@dell.com', 
   TotalDuration: 100, 
- Request : [{
+ Request : {
     name: 'Mark',
     surname: 'Galea',
     age: 30,
@@ -103,8 +103,8 @@
     'first-line': 'One',
     'second-line': 'Dell Way',
     city: 'Round Rock'
-  }],
-    Response : [{
+  },
+    Response : {
     name: 'Mark',
     surname: 'Galea',
     age: 30,
@@ -112,7 +112,7 @@
     'first-line': '2509 Blended Tree',
     'second-line': 'Ranch',
     city: 'Leander'
-  }]},
+  }},
   
   {id: 5, 
   ServiceEndpoint: 'http://quotes.dellsvc', 
@@ -123,7 +123,7 @@
   CorrelationId : 'def', 
   UserName : 'test@dell.com', 
   TotalDuration: 100, 
-  Request : [{
+  Request : {
     name: 'Mark',
     surname: 'Galea',
     age: 30,
@@ -131,8 +131,8 @@
     'first-line': 'One',
     'second-line': 'Dell Way',
     city: 'Round Rock'
-  }],
-    Response : [{
+  },
+    Response : {
     name: 'Mark',
     surname: 'Galea',
     age: 30,
@@ -140,6 +140,6 @@
     'first-line': '2509 Blended Tree',
     'second-line': 'Ranch',
     city: 'Leander'
-  }]},
+  }},
   
 ]
