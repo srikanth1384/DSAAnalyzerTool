@@ -1,145 +1,188 @@
 [
-  
   {
-    id: 1, 
-    ServiceEndpoint: 'ICustomerSearchService',
-    OperationName: 'GetCustomerAsync',
-    TimeStamp : '03/24/2019 10:00:00',
-    ElementId : 'xyz',
-    TransactionId: 'abc',
-    CorrelationId : 'def',
-    UserName : 'test@dell.com',
-    TotalDuration: 100 ,
-    Request : {
-    name: 'Mark',
-    surname: 'Galea',
-    age: 30,
-    address: {
-    'first-line': 'One',
-    'second-line': 'Dell Way',
-    city: 'Round Rock'
+  "id": 1,
+  "ServiceEndpoint": "ICustomerSearchService",
+  "OperationName": "GetCustomerAsync",
+  "TimeStamp": "03/24/2019 10:00:00",
+  "ElementId": "xyz",
+  "TransactionId": "abc",
+  "CorrelationId": "def",
+  "UserName": "test@dell.com",
+  "TotalDuration": 100,
+  "Request": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "One",
+      "second-line": "Dell Way",
+      "city": "Round Rock"
+    }
   },
-    Response : {
-    name: 'Mark',
-    surname: 'Galea',
-    age: 30,
-    address: {
-    'first-line': '2509 Blended Tree',
-    'second-line': 'Ranch',
-    city: 'Leander'
-  }},
-  
+  "Response": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "2509 Blended Tree",
+      "second-line": "Ranch",
+      "city": "Leander"
+    }
+  }
+},
   {
-    id: 2,
-    ServiceEndpoint: 'ICustomerManagementService',
-    OperationName: 'AddCustomerNotesAsync',
-    TimeStamp : '03/24/2019 10:01:00',
-    ElementId : 'xyz',
-    TransactionId: 'abc',
-    CorrelationId : 'def',
-    UserName : 'test@dell.com',
-    TotalDuration: 100,
-    Request : {
-    name: 'Mark',
-    surname: 'Galea',
-    age: 30,
-    address: {
-    'first-line': 'One',
-    'second-line': 'Dell Way',
-    city: 'Round Rock'
+  "id": 2,
+  "ServiceEndpoint": "ICustomerManagementService",
+  "OperationName": "AddCustomerNotesAsync",
+  "TimeStamp": "03/24/2019 11:00:00",
+  "ElementId": "xyz",
+  "TransactionId": "abc",
+  "CorrelationId": "def",
+  "UserName": "test@dell.com",
+  "TotalDuration": 100,
+  "Request": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "One",
+      "second-line": "Dell Way",
+      "city": "Round Rock"
+    }
   },
-    Response : {
-    name: 'Mark',
-    surname: 'Galea',
-    age: 30,
-    address: {
-    'first-line': '2509 Blended Tree',
-    'second-line': 'Ranch',
-    city: 'Leander'
-  }},
-  
-  {id: 3, 
-  ServiceEndpoint: 'ISolutionService', 
-  OperationName: 'GetSolutionAsync', 
-  TimeStamp : '03/24/2019 10:02:00', 
-  ElementId : 'xyz', 
-  TransactionId: 'abc', 
-  CorrelationId : 'def', 
-  UserName : 'test@dell.com', 
-  TotalDuration: 100, 
-  Request : {
-    name: 'Mark',
-    surname: 'Galea',
-    age: 30,
-    address: {
-    'first-line': 'One',
-    'second-line': 'Dell Way',
-    city: 'Round Rock'
+  "Response": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "2509 Blended Tree",
+      "second-line": "Ranch",
+      "city": "Leander"
+    }
+  }
   },
-    Response : {
-    name: 'Mark',
-    surname: 'Galea',
-    age: 30,
-    address: {
-    'first-line': '2509 Blended Tree',
-    'second-line': 'Ranch',
-    city: 'Leander'
-  }},
-  
-  {id: 4, 
-  ServiceEndpoint: 'http://quotes.dellsvc', 
-  OperationName: 'GET', 
-  TimeStamp : '03/24/2019 10:03:00', 
-  ElementId : 'xyz', 
-  TransactionId: 'abc', 
-  CorrelationId : 'def', 
-  UserName : 'test@dell.com', 
-  TotalDuration: 100, 
- Request : {
-    name: 'Mark',
-    surname: 'Galea',
-    age: 30,
-    address: {
-    'first-line': 'One',
-    'second-line': 'Dell Way',
-    city: 'Round Rock'
+    {
+  "id": 3,
+  "ServiceEndpoint": "ISolutionService",
+  "OperationName": "GetSolutionAsync",
+  "TimeStamp": "03/24/2019 12:00:00",
+  "ElementId": "xyz",
+  "TransactionId": "abc",
+  "CorrelationId": "def",
+  "UserName": "test@dell.com",
+  "TotalDuration": 100,
+  "Request": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "One",
+      "second-line": "Dell Way",
+      "city": "Round Rock"
+    }
   },
-    Response : {
-    name: 'Mark',
-    surname: 'Galea',
-    age: 30,
-    address: {
-    'first-line': '2509 Blended Tree',
-    'second-line': 'Ranch',
-    city: 'Leander'
-  }},
-  
-  {id: 5, 
-  ServiceEndpoint: 'http://quotes.dellsvc', 
-  OperationName: 'POST', 
-  TimeStamp : '03/24/2019 10:04:00', 
-  ElementId : 'xyz', 
-  TransactionId: 'abc', 
-  CorrelationId : 'def', 
-  UserName : 'test@dell.com', 
-  TotalDuration: 100, 
-  Request : {
-    name: 'Mark',
-    surname: 'Galea',
-    age: 30,
-    address: {
-    'first-line': 'One',
-    'second-line': 'Dell Way',
-    city: 'Round Rock'
+  "Response": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "2509 Blended Tree",
+      "second-line": "Ranch",
+      "city": "Leander"
+    }
+  }
+},
+{
+  "id": 4,
+  "ServiceEndpoint": "http://quotes.dellsvc",
+  "OperationName": "GET",
+  "TimeStamp": "03/24/2019 13:00:00",
+  "ElementId": "xyz",
+  "TransactionId": "abc",
+  "CorrelationId": "def",
+  "UserName": "test@dell.com",
+  "TotalDuration": 100,
+  "Request": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "One",
+      "second-line": "Dell Way",
+      "city": "Round Rock"
+    }
   },
-    Response : {
-    name: 'Mark',
-    surname: 'Galea',
-    age: 30,
-    address: {
-    'first-line': '2509 Blended Tree',
-    'second-line': 'Ranch',
-    city: 'Leander'
-  }},
-  
+  "Response": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "2509 Blended Tree",
+      "second-line": "Ranch",
+      "city": "Leander"
+    }
+  }
+},
+  {
+  "id": 5,
+  "ServiceEndpoint": "http://quotes.dellsvc",
+  "OperationName": "POST",
+  "TimeStamp": "03/24/2019 14:00:00",
+  "ElementId": "xyz",
+  "TransactionId": "abc",
+  "CorrelationId": "def",
+  "UserName": "test@dell.com",
+  "TotalDuration": 100,
+  "Request": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "One",
+      "second-line": "Dell Way",
+      "city": "Round Rock"
+    }
+  },
+  "Response": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "2509 Blended Tree",
+      "second-line": "Ranch",
+      "city": "Leander"
+    }
+  }
+},
+  {
+  "id": 6,
+  "ServiceEndpoint": "IConfigService",
+  "OperationName": "ProcessDeltaRequest",
+  "TimeStamp": "03/24/2019 10:00:00",
+  "ElementId": "xyz",
+  "TransactionId": "abc",
+  "CorrelationId": "def",
+  "UserName": "test@dell.com",
+  "TotalDuration": 100,
+  "Request": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "One",
+      "second-line": "Dell Way",
+      "city": "Round Rock"
+    }
+  },
+  "Response": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "2509 Blended Tree",
+      "second-line": "Ranch",
+      "city": "Leander"
+    }
+  }
+} 
 ]
