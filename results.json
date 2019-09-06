@@ -1,14 +1,14 @@
 [
   {
-  "id": 1,
   "ServiceEndpoint": "ICustomerSearchService",
   "OperationName": "GetCustomerAsync",
-  "TimeStamp": "03/24/2019 10:00:00",
-  "ElementId": "xyz",
-  "TransactionId": "abc",
-  "CorrelationId": "def",
+  "TimeStamp": "03/24/2019 00:00:00",
+  "ElementId": "search_Person",
+  "TransactionId": "1442baff-3922-49d8-8b38-a2a5cc4a85b4",
+  "CorrelationId": "ecd3d01c-708b-4027-a068-00ee590d3b0a",
   "UserName": "test@dell.com",
   "TotalDuration": 100,
+  "RuleName" : "Rule-UserName",
   "Request": {
     "name": "Mark",
     "surname": "Galea",
@@ -31,15 +31,15 @@
   }
 },
   {
-  "id": 2,
   "ServiceEndpoint": "ICustomerManagementService",
   "OperationName": "AddCustomerNotesAsync",
-  "TimeStamp": "03/24/2019 11:00:00",
-  "ElementId": "xyz",
-  "TransactionId": "abc",
-  "CorrelationId": "def",
+  "TimeStamp": "04/10/2019 00:00:00",
+  "ElementId": "add_notes",
+ "TransactionId": "1442baff-3922-49d8-8b38-a2a5cc4a85b2",
+  "CorrelationId": "ecd3d01c-708b-4027-a068-00ee590d3b0f",
   "UserName": "test@dell.com",
   "TotalDuration": 100,
+  "RuleName" : "Rule-Endpoint",
   "Request": {
     "name": "Mark",
     "surname": "Galea",
@@ -62,15 +62,15 @@
   }
   },
     {
-  "id": 3,
   "ServiceEndpoint": "ISolutionService",
   "OperationName": "GetSolutionAsync",
-  "TimeStamp": "03/24/2019 12:00:00",
-  "ElementId": "xyz",
-  "TransactionId": "abc",
-  "CorrelationId": "def",
+  "TimeStamp": "05/06/2019 12:00:00",
+  "ElementId": "get_solution",
+ "TransactionId": "1442baff-3922-49d8-8b38-a2a5cc4a85b8",
+ "CorrelationId": "ecd3d01c-708b-4027-a068-00ee590d3b0e",
   "UserName": "test@dell.com",
   "TotalDuration": 100,
+  "RuleName" : "Rule-ElementId",
   "Request": {
     "name": "Mark",
     "surname": "Galea",
@@ -93,15 +93,15 @@
   }
 },
 {
-  "id": 4,
   "ServiceEndpoint": "http://quotes.dellsvc",
   "OperationName": "GET",
-  "TimeStamp": "03/24/2019 13:00:00",
-  "ElementId": "xyz",
-  "TransactionId": "abc",
-  "CorrelationId": "def",
+  "TimeStamp": "06/08/2019 13:00:00",
+  "ElementId": "save_quote",
+ "TransactionId": "1442baff-3922-49d8-8b38-a2a5cc4a85b3",
+  "CorrelationId": "ecd3d01c-708b-4027-a068-00ee590d3b0j",
   "UserName": "test@dell.com",
   "TotalDuration": 100,
+  "RuleName" : "Rule-Endpoint",
   "Request": {
     "name": "Mark",
     "surname": "Galea",
@@ -124,15 +124,15 @@
   }
 },
   {
-  "id": 5,
   "ServiceEndpoint": "http://quotes.dellsvc",
   "OperationName": "POST",
-  "TimeStamp": "03/24/2019 14:00:00",
-  "ElementId": "xyz",
-  "TransactionId": "abc",
-  "CorrelationId": "def",
+  "TimeStamp": "08/09/2019 14:00:00",
+  "ElementId": "create_quote",
+  "TransactionId": "1442baff-3922-49d8-8b38-a2a5cc4a85b4",
+  "CorrelationId": "ecd3d01c-708b-4027-a068-00ee590d3b0h",
   "UserName": "test@dell.com",
   "TotalDuration": 100,
+  "RuleName" : "Rule-UserName",
   "Request": {
     "name": "Mark",
     "surname": "Galea",
@@ -155,15 +155,15 @@
   }
 },
   {
-  "id": 6,
   "ServiceEndpoint": "IConfigService",
   "OperationName": "ProcessDeltaRequest",
-  "TimeStamp": "03/24/2019 10:00:00",
-  "ElementId": "xyz",
-  "TransactionId": "abc",
-  "CorrelationId": "def",
+  "TimeStamp": "09/05/2019 10:00:00",
+  "ElementId": "update_item",
+  "TransactionId": "1442baff-3922-49d8-8b38-a2a5cc4a85b3",
+  "CorrelationId": "ecd3d01c-708b-4027-a068-00ee590d3b0c",
   "UserName": "test@dell.com",
   "TotalDuration": 100,
+  "RuleName" : "Rule-Endpoint",
   "Request": {
     "name": "Mark",
     "surname": "Galea",
@@ -184,5 +184,191 @@
       "city": "Leander"
     }
   }
-} 
+},
+  {
+  "ServiceEndpoint": "ICustomerSearchService",
+  "OperationName": "GetCustomerAsync",
+  "TimeStamp": "03/24/2019 00:00:00",
+  "ElementId": "get_customer",
+  "TransactionId": "1442baff-3922-49d8-8b38-a2a5cc4a85b2",
+  "CorrelationId": "ecd3d01c-708b-4027-a068-00ee590d3b0h",
+  "UserName": "test@dell.com",
+  "TotalDuration": 100,
+  "RuleName" : "Rule-UserName",
+  "Request": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "One",
+      "second-line": "Dell Way",
+      "city": "Round Rock"
+    }
+  },
+  "Response": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "2509 Blended Tree",
+      "second-line": "Ranch",
+      "city": "Leander"
+    }
+  }
+},
+  {
+  "ServiceEndpoint": "ICustomerManagementService",
+  "OperationName": "AddCustomerNotesAsync",
+  "TimeStamp": "04/10/2019 00:00:00",
+  "ElementId": "add_notes",
+   "TransactionId": "1442baff-3922-49d8-8b38-a2a5cc4a85b1",
+   "CorrelationId": "ecd3d01c-708b-4027-a068-00ee590d3b0f",
+  "UserName": "test@dell.com",
+  "TotalDuration": 100,
+  "RuleName" : "Rule-Endpoint",
+  "Request": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "One",
+      "second-line": "Dell Way",
+      "city": "Round Rock"
+    }
+  },
+  "Response": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "2509 Blended Tree",
+      "second-line": "Ranch",
+      "city": "Leander"
+    }
+  }
+  },
+    {
+  "ServiceEndpoint": "ISolutionService",
+  "OperationName": "GetSolutionAsync",
+  "TimeStamp": "05/06/2019 12:00:00",
+  "ElementId": "get_solution",
+  "TransactionId": "1442baff-3922-49d8-8b38-a2a5cc4a85b9",
+  "CorrelationId": "ecd3d01c-708b-4027-a068-00ee590d3b0e",
+  "UserName": "test@dell.com",
+  "TotalDuration": 100,
+  "RuleName" : "Rule-ElementId",
+  "Request": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "One",
+      "second-line": "Dell Way",
+      "city": "Round Rock"
+    }
+  },
+  "Response": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "2509 Blended Tree",
+      "second-line": "Ranch",
+      "city": "Leander"
+    }
+  }
+},
+{
+  "ServiceEndpoint": "http://quotes.dellsvc",
+  "OperationName": "GET",
+  "TimeStamp": "06/08/2019 13:00:00",
+  "ElementId": "save_quote",
+  "TransactionId": "1442baff-3922-49d8-8b38-a2a5cc4a858",
+  "CorrelationId": "ecd3d01c-708b-4027-a068-00ee590d3b0d",
+  "UserName": "test@dell.com",
+  "TotalDuration": 100,
+  "RuleName" : "Rule-Endpoint",
+  "Request": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "One",
+      "second-line": "Dell Way",
+      "city": "Round Rock"
+    }
+  },
+  "Response": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "2509 Blended Tree",
+      "second-line": "Ranch",
+      "city": "Leander"
+    }
+  }
+},
+  {
+  "ServiceEndpoint": "http://quotes.dellsvc",
+  "OperationName": "POST",
+  "TimeStamp": "03/13/2019 14:00:00",
+  "ElementId": "copy_quote",
+  "TransactionId": "1442baff-3922-49d8-8b38-a2a5cc4a85b7",
+  "CorrelationId": "ecd3d01c-708b-4027-a068-00ee590d3b0c",
+  "UserName": "test@dell.com",
+  "TotalDuration": 100,
+  "RuleName" : "Rule-UserName",
+  "Request": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "One",
+      "second-line": "Dell Way",
+      "city": "Round Rock"
+    }
+  },
+  "Response": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "2509 Blended Tree",
+      "second-line": "Ranch",
+      "city": "Leander"
+    }
+  }
+},
+  {
+  "ServiceEndpoint": "IConfigService",
+  "OperationName": "ProcessDeltaRequest",
+  "TimeStamp": "07/04/2019 10:00:00",
+  "ElementId": "update_item",
+  "TransactionId": "1442baff-3922-49d8-8b38-a2a5cc4a85b3",
+  "CorrelationId": "ecd3d01c-708b-4027-a068-00ee590d3b0b",
+  "UserName": "test@dell.com",
+  "TotalDuration": 100,
+  "RuleName" : "Rule-Endpoint",
+  "Request": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "One",
+      "second-line": "Dell Way",
+      "city": "Round Rock"
+    }
+  },
+  "Response": {
+    "name": "Mark",
+    "surname": "Galea",
+    "age": 30,
+    "address": {
+      "first-line": "2509 Blended Tree",
+      "second-line": "Ranch",
+      "city": "Leander"
+    }
+  }
+}  
 ]
